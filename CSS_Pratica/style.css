@@ -1,0 +1,48 @@
+body{
+    background-color: #09aaa2;
+}
+.texto{
+    font-size: 20px; /*Tamanho da fonte*/
+    line-height: 30px; /*Altura Entre Linhas*/
+    color: #0b0472; /*Cor da Fonte*/
+    font-style: italic; /*Estilo da fonte*/
+    font-weight: bold; /*Largura da Fonte*/
+    text-align: left; /*Alinhamento de texto*/
+}
+.texto a{
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.borda{
+    width: 500px;
+    margin: 0 auto;
+    border: 10px solid #0b0472; /*Tamanho tipo cor*/
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.texto1{
+    width: 300px;
+    margin: 0 auto;
+}
+.texto2{
+    font-size: 20px;
+    color: #0b0472;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 40px;
+    text-align:center;
+}
+.lista{
+    list-style-position: inside; /*posição do marcador inside/outside*/
+    list-style-type: square;/*disc circle square*/
+    
+}
